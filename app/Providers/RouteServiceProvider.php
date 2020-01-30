@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -17,20 +17,22 @@ class RouteServiceProvider extends ServiceProvider
     protected $namespace = 'App\Http\Controllers';
 
     /**
-     * The path to the "home" route for your application.
-     *
-     * @var string
-     */
-    public const HOME = '/home';
-
-    /**
      * Define your route model bindings, pattern filters, etc.
      *
      * @return void
      */
     public function boot()
     {
-        //
+        Route::pattern('group', '[a-z\-]+');
+        Route::pattern('page', '[0-9]+');
+        Route::pattern('message', '[0-9]+');
+        Route::pattern('property', '[0-9]+');
+
+        // Search parameters
+        Route::pattern('search_type', '[alugar|comprar]+');
+        Route::pattern('property_type', '[a-z\-]+');
+        Route::pattern('state', '[a-z\-]+');
+        Route::pattern('city', '[a-z\-]+');
 
         parent::boot();
     }
