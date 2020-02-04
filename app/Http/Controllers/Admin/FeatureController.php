@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Service\FeatureService;
+use App\Services\FeatureService;
 
 class FeatureController extends Controller
 {

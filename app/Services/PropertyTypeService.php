@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use App\Models\Property;
 use App\Models\PropertyType;
-use App\Service\BaseService;
+use App\Services\BaseService;
 
 class PropertyTypeService extends BaseService
 {

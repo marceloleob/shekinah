@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use Illuminate\Support\Facades\Auth;
-use App\Service\BaseService;
+use App\Services\BaseService;
 use App\Models\User;
 use Exception;
 

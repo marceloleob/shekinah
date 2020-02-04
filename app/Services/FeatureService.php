@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use App\Models\Feature;
 use App\Models\PropertyFeature;
-use App\Service\BaseService;
+use App\Services\BaseService;
 use Illuminate\Support\Arr;
 
 class FeatureService extends BaseService
@@ -31,7 +31,7 @@ class FeatureService extends BaseService
         // cria uma collection com pagination para montar o grid
         parent::handlePagination($query);
         // efetua o tratamento no collection
-        static::customCollection();
+        parent::customCollection();
 
 		return [
 			'data'     => parent::$collection,

@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
-use App\Service\BaseService;
+use Illuminate\Support\Arr;
+use App\Services\BaseService;
 use App\Models\PropertyFeature;
 
 class PropertyFeatureService extends BaseService
@@ -43,7 +44,7 @@ class PropertyFeatureService extends BaseService
      */
     public static function flattenPost($features)
     {
-        return array_flatten($features);
+        return Arr::flatten($features);
     }
 
     /**
@@ -56,7 +57,7 @@ class PropertyFeatureService extends BaseService
     {
         $features = PropertyFeature::select('feature_id')->where('property_id', '=', $id)->get();
 
-        return array_flatten($features->toArray());
+        return Arr::flatten($features->toArray());
     }
 
     /**

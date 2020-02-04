@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\Service\ContactService;
-use App\Service\UserService;
+use App\Services\ContactService;
+use App\Services\UserService;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;

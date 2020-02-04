@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
-use App\Service\BaseService;
+use App\Services\BaseService;
 
 class GroupTypeService extends BaseService
 {

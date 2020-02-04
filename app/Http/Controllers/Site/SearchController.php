@@ -3,13 +3,13 @@
 namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
-use App\Service\AdvertiseService;
-use App\Service\AdvertiseTypeService;
-use App\Service\CityService;
-use App\Service\FeatureService;
-use App\Service\GroupTypeService;
-use App\Service\PropertyTypeService;
-use App\Service\StateService;
+use App\Services\AdvertiseService;
+use App\Services\AdvertiseTypeService;
+use App\Services\CityService;
+use App\Services\FeatureService;
+use App\Services\GroupTypeService;
+use App\Services\PropertyTypeService;
+use App\Services\StateService;
 
 class SearchController extends Controller
 {

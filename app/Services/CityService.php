@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use App\Models\City;
-use App\Service\BaseService;
+use App\Services\BaseService;
 
 
 class CityService extends BaseService

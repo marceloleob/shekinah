@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use App\Helpers\Filters;
-use App\Service\BaseService;
-use App\Service\UserService;
-use App\Service\PropertyFeatureService;
+use App\Services\BaseService;
+use App\Services\UserService;
+use App\Services\PropertyFeatureService;
 use App\Models\Progress;
 use App\Models\Property;
 use Illuminate\Support\Facades\DB;

@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
-use App\Service\GroupTypeService;
-use App\Service\PropertyTypeService;
-use App\Service\CityService;
+use App\Services\GroupTypeService;
+use App\Services\PropertyTypeService;
+use App\Services\CityService;
 
 class HomeController extends Controller
 {

@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Ajax;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Service\CityService;
-use App\Service\PropertyTypeService;
+use App\Services\CityService;
+use App\Services\PropertyTypeService;
 
 class OptionsController extends Controller
 {

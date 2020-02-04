@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Site\ContactRequest;
-use App\Service\CaptchaService;
-use App\Service\ContactService;
+use App\Services\CaptchaService;
+use App\Services\ContactService;
 
 class ContactController extends Controller
 {
