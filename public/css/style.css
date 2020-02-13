@@ -2290,7 +2290,7 @@ blockquote {
 ==============================*/
 .settings_links_2 ul {
 	border-bottom: 1px solid transparent;
-	padding: 10px 30px;
+	padding: 10px 20px;
 }
 .settings_links_2 ul li {
 	margin: 2px 0;
@@ -2586,7 +2586,7 @@ blockquote {
 .property_list tbody tr td {
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
-    padding: 20px 10px;
+    padding: 15px 10px;
     height: auto;
     vertical-align: middle;
 }
@@ -2625,12 +2625,14 @@ blockquote {
 .property_list .rating i {
 	font-size: 10px;
 }
+.property_list .actions {
+    text-align: center;
+}
 .property_list .actions a {
     display: block;
-    text-align: left;
-    width: 100%;
+    width: 80px;
     padding: 2px 0;
-    margin-top: 4px;
+    margin: 10px auto;
     font-size: 11px;
     border: 1px solid;
     border-radius: 25px;

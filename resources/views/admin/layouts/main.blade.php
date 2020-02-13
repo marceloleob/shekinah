@@ -13,11 +13,11 @@
         <section class="full_row pt_40 pb_80 bg_gray header_margin">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         {{-- MENU --}}
                         @include('admin.partials.menu.' . $rule)
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         <div class="mt_md_50">
                             {{-- CONTENT --}}
                             @yield('content')
